@@ -1,0 +1,13 @@
+Create your own store! Your store should sell one type of things, like clothing or bikes, whatever you want your store to specialize in. 
+You should have a table for all the items in your store, and at least 5 columns for the kind of data you think you'd need to store. 
+You should sell at least 15 items, and use select statements to order your items by price and show at least one statistic about the items.
+
+CREATE TABLE makeup (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER);
+
+INSERT INTO makeup VALUES (1, "MAKEUP REMOVER", 4, 5); 
+INSERT INTO makeup VALUES (2, "LIPSTICK", 2,6);
+INSERT INTO makeup VALUES (3, "EYELINER", 3,2);
+INSERT INTO makeup VALUES (4, "CONCEALER",3,7);
+INSERT INTO makeup VALUES (5, "FOUNDATION",3,9);
+
+SELECT * FROM makeup ORDER BY price;
